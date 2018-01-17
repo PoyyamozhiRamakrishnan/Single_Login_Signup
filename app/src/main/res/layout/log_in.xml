@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0673ab7"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/ic_login" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="0dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="30dp"
+            android:background="#647f49df"
+            android:hint="User Name"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingStart="30dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="#647f49df"
+            android:hint="Password"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingStart="30dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:background="@null"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Log in"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>
